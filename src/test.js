@@ -1,7 +1,7 @@
 var ffmpeg = require('fluent-ffmpeg');
 
 var command = ffmpeg('../asset/test.mp4')
-			..videoCodec('libx264')
+			.videoCodec('libx264')
 			.audioCodec('libmp3lame')
 			.size('320x240')
 			// .audioBitrate('16k')
