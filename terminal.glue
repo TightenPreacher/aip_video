@@ -1,1 +1,12 @@
- 
+ █ [ D:\mypro_hjc\aip_video ] git add .
+
+█ [ D:\mypro_hjc\aip_video ] git commit -m "添加测试音频"
+[master 8210822] 添加测试音频
+ 2 files changed, 1 insertion(+)
+ create mode 100644 "asset/5-2 \351\232\217\345\240\202\345\260\217\346\265\213\350\257\225.mp4"
+ create mode 100644 terminal.glue
+
+█ [ D:\mypro_hjc\aip_video ] git push
+To github.com:TightenPreacher/aip_video.git
+   8dd0e03..8210822  master -> master
+
