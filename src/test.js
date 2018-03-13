@@ -3,7 +3,7 @@ var ffmpeg = require('fluent-ffmpeg');
 var command = ffmpeg('../asset/abc.flv')
 	.audioCodec('libfaac')
 	.videoCodec('libx264')
-	.format('mp4');
+	.format('mp4')
 	// .audioBitrate('16k')
 	.on('error',function (err) {
 		console.log('错误: ' + err.message);
