@@ -15,7 +15,6 @@ var ffmpeg = require('fluent-ffmpeg');
 
 
 var command = ffmpeg('../asset/abc.flv')
-	.audioCodec('libfaac')
 	.videoCodec('libx264')
 	.format('flv');
 
