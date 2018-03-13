@@ -11,4 +11,4 @@ var command = ffmpeg('../asset/test.mp4')
 			.on('end', function() {
 				console.log('转化成功!');
 			})
-			.save('../dist/test.wav');
+			.save('../dist/test.mp3');
