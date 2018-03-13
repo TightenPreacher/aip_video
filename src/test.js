@@ -1,9 +1,10 @@
 var ffmpeg = require('fluent-ffmpeg');
 
 var command = ffmpeg('../asset/test.mp4')
-			.videoCodec('libx264')
+			..videoCodec('libx264')
 			.audioCodec('libmp3lame')
 			.size('320x240')
+			// .audioBitrate('16k')
 			.on('error',function (err) {
 				console.log('错误: ' + err.message);
 			})
